@@ -45,7 +45,7 @@ class TodoList extends Component {
     render() {
         return (
             <div className="TodoList">
-                <h1>Todo List</h1>
+                <h1>Simple Todo App</h1>
                 <ul>
                     {this.state.todoItems.map(item =>
                         <TodoItem key={item.id}
